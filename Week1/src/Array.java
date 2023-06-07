@@ -8,7 +8,10 @@ public class Array {
 //        biggestInArray();
 //        convertTemperature();
 //        findMinimum();
-        deleteElementInArray();
+//        deleteElementInArray();
+//        insertElementInArray();
+//        merge2Array();
+        maxInTwoDimensionalArray();
     }
 
     public static void reverseArray() {
@@ -177,9 +180,105 @@ public class Array {
     }
 
     public static void deleteElementInArray() {
-        int[] array = new int[]{1, 2, 3, 4, 5, 6, 7, 0, 0, 0};
+        int[] array = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         System.out.println("Array before removed element: " + Arrays.toString(array));
         deleteElement(array, 2);
         System.out.println("Array after removed element: " + Arrays.toString(array));
+    }
+
+    public static void insertElement(int[] arr, int x, int index) {
+        int[] newArr;
+        if (index < 0 || index > arr.length) {
+            newArr = arr;
+        } else {
+            newArr = new int[arr.length + 1];
+            for (int i = 0; i < newArr.length; i++) {
+                if (i < index) {
+                    newArr[i] = arr[i];
+                } else if (i == index) {
+                    newArr[index] = x;
+                } else {
+                    newArr[i] = arr[i - 1];
+                }
+            }
+        }
+        System.out.println("Array after insert element: " + Arrays.toString(newArr));
+    }
+
+    public static void insertElementInArray() {
+        int[] array = new int[]{0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+        System.out.println("Array before insert element: " + Arrays.toString(array));
+        insertElement(array, 99, 2);
+    }
+
+    public static void merge2Array() {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Array A");
+        int sizeA;
+        int[] arrayA;
+        do {
+            System.out.print("Enter size array A: ");
+            sizeA = scanner.nextInt();
+            if (sizeA > 20) {
+                System.out.println("Size does not exceed 20 !!");
+            }
+        } while (sizeA > 20);
+        arrayA = new int[sizeA];
+        int i = 0;
+        while (i < arrayA.length) {
+            System.out.print("Enter element " + (i + 1) + " : ");
+            arrayA[i] = scanner.nextInt();
+            i++;
+        }
+        System.out.println("Array A: " + Arrays.toString(arrayA));
+        System.out.println("-----------------");
+
+        System.out.println("Array B");
+        int sizeB;
+        int[] arrayB;
+        do {
+            System.out.print("Enter size array B: ");
+            sizeB = scanner.nextInt();
+            if (sizeB > 20) {
+                System.out.println("Size does not exceed 20 !!");
+            }
+        } while (sizeB > 20);
+        arrayB = new int[sizeB];
+        int j = 0;
+        while (j < arrayB.length) {
+            System.out.print("Enter element " + (j + 1) + " : ");
+            arrayB[j] = scanner.nextInt();
+            j++;
+        }
+        System.out.println("Array B: " + Arrays.toString(arrayB));
+        System.out.println("-----------------");
+
+        int[] newArray = new int[sizeA + sizeB];
+        for (int k = 0; k < newArray.length; k++) {
+            if (k < sizeA) {
+                newArray[k] = arrayA[k];
+            } else {
+                newArray[k] = arrayB[k - sizeA];
+            }
+        }
+        System.out.println("New array: " + Arrays.toString(newArray));
+    }
+
+    public static void maxInTwoDimensionalArray() {
+        int[][] array = new int[][]{{1, 2, 3}, {5, 6, 7}};
+        int max = array[0][0];
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[0].length; j++) {
+                if (max < array[i][j]) {
+                    max = array[i][j];
+                }
+            }
+        }
+
+        for (int[] ints : array) {
+            System.out.println(Arrays.toString(ints));
+        }
+        System.out.println("Max value is: " + max);
     }
 }

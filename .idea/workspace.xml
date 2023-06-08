@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a2ffe88-a6f6-449b-89e0-b583f0332803" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week1/src/ClassObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/src/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/src/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Week1/Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week1/Array.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,9 +57,16 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Array">
+  <component name="RunManager" selected="Application.ClassObject">
     <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Array" />
+      <module name="Week1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClassObject" />
       <module name="Week1" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,6 +88,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClassObject" />
         <item itemvalue="Application.Array" />
         <item itemvalue="Application.Loop" />
         <item itemvalue="Application.Main" />
@@ -105,7 +111,8 @@
       <workItem from="1686015840895" duration="7578000" />
       <workItem from="1686036511121" duration="8172000" />
       <workItem from="1686101471159" duration="5876000" />
-      <workItem from="1686119261462" duration="11816000" />
+      <workItem from="1686119261462" duration="12105000" />
+      <workItem from="1686187212526" duration="12085000" />
     </task>
     <servers />
   </component>

@@ -39,11 +39,12 @@ public class ClassObject {
          }
 
          StopWatch stopWatch = new StopWatch();
-         System.out.println("Start: " + stopWatch.startTime);
+         stopWatch.start();
          for (int i = 0; i < 10000; i++) {
          System.out.println(i);
          }
          stopWatch.stop();
+         System.out.println("Start: " + stopWatch.startTime);
          System.out.println("Stop: " + stopWatch.endTime);
 
          System.out.println("Elapsed time in milliseconds: " + stopWatch.getElapsedTime());

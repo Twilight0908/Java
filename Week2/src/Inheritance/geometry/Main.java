@@ -1,5 +1,7 @@
 package Inheritance.geometry;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         /*
@@ -33,6 +35,7 @@ public class Main {
         System.out.println(rectangle);
          */
 
+        /*
         Square square = new Square();
         System.out.println(square);
 
@@ -41,5 +44,26 @@ public class Main {
 
         square = new Square("yellow", true, 3);
         System.out.println(square);
+         */
+
+        Shape[] shapes = new Shape[3];
+
+        Circle circle = new Circle();
+        circle.resize(random());
+        shapes[0] = circle;
+
+        Rectangle rectangle = new Rectangle();
+        rectangle.resize(random());
+        shapes[1] = rectangle;
+
+        Square square = new Square();
+        square.resize(random());
+        shapes[2] = square;
+
+        System.out.println(Arrays.toString(shapes));
+    }
+
+    public static double random() {
+        return (int) (Math.random() * 100) + 1;
     }
 }

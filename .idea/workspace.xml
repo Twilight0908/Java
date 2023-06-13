@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a2ffe88-a6f6-449b-89e0-b583f0332803" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/abstractInterface/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/abstractInterface/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/abstractInterface/Chicken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/abstractInterface/Edible.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/abstractInterface/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/abstractInterface/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/abstractInterface/Orange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/abstractInterface/Tiger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/circle/ComparableCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/geometry/Resizeable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/src/Inheritance/circle/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/src/Inheritance/circle/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/src/Inheritance/geometry/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/src/Inheritance/geometry/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/src/Inheritance/geometry/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/src/Inheritance/geometry/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/src/Inheritance/geometry/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/src/Inheritance/geometry/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/src/Inheritance/geometry/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/src/Inheritance/geometry/Square.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -66,7 +62,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Inheritance.circle.Main">
+  <component name="RunManager" selected="Application.Inheritance.geometry.Main">
     <configuration name="AccessModifier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AccessModifier" />
       <module name="Week1" />
@@ -128,10 +124,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Inheritance.geometry.Main" />
         <item itemvalue="Application.Inheritance.circle.Main" />
         <item itemvalue="Application.Inheritance.abstractInterface.Main" />
         <item itemvalue="Application.Inheritance.point.Main" />
-        <item itemvalue="Application.Inheritance.geometry.Main" />
         <item itemvalue="Application.AccessModifier" />
       </list>
     </recent_temporary>
@@ -159,7 +155,8 @@
       <workItem from="1686274231758" duration="4514000" />
       <workItem from="1686293017207" duration="7164000" />
       <workItem from="1686552471794" duration="8770000" />
-      <workItem from="1686624800641" duration="5073000" />
+      <workItem from="1686624800641" duration="5491000" />
+      <workItem from="1686637930340" duration="4250000" />
     </task>
     <servers />
   </component>

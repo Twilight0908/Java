@@ -1,6 +1,6 @@
 package Inheritance.geometry;
 
-public class Rectangle extends Shape {
+public class Rectangle extends Shape implements Resizeable {
     private double width;
     private double height;
 
@@ -36,6 +36,11 @@ public class Rectangle extends Shape {
         this.height = height;
     }
 
+    public void setWidthHeight(double width, double height) {
+        this.width = width;
+        this.height = height;
+    }
+
     public double getArea() {
         return this.width * this.height;
     }
@@ -50,5 +55,11 @@ public class Rectangle extends Shape {
                 "width=" + width +
                 ", height=" + height +
                 "} " + super.toString();
+    }
+
+    @Override
+    public void resize(double percent) {
+        this.width *= percent;
+        this.height *= percent;
     }
 }

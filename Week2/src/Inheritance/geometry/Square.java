@@ -25,4 +25,9 @@ public class Square extends Rectangle {
     public String toString() {
         return "Square{} " + super.toString();
     }
+
+    @Override
+    public void resize(double percent) {
+        super.resize(percent);
+    }
 }

@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a2ffe88-a6f6-449b-89e0-b583f0332803" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/circle/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/circle/Cylinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/circle/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/point/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/point/MovablePoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/point/Point2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/point/Point3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/abstractInterface/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/abstractInterface/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/abstractInterface/Chicken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/abstractInterface/Edible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/abstractInterface/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/abstractInterface/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/abstractInterface/Orange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/abstractInterface/Tiger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/circle/ComparableCircle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2/src/Inheritance/circle/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week2/src/Inheritance/circle/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,10 +66,23 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Inheritance.point.Main">
+  <component name="RunManager" selected="Application.Inheritance.circle.Main">
     <configuration name="AccessModifier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AccessModifier" />
       <module name="Week1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Inheritance.abstractInterface.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Inheritance.abstractInterface.Main" />
+      <module name="Week2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Inheritance.abstractInterface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,26 +126,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Circle.Main" />
-      <module name="BaiTap" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Circle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Inheritance.point.Main" />
         <item itemvalue="Application.Inheritance.circle.Main" />
+        <item itemvalue="Application.Inheritance.abstractInterface.Main" />
+        <item itemvalue="Application.Inheritance.point.Main" />
         <item itemvalue="Application.Inheritance.geometry.Main" />
         <item itemvalue="Application.AccessModifier" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +158,8 @@
       <workItem from="1686218925970" duration="413000" />
       <workItem from="1686274231758" duration="4514000" />
       <workItem from="1686293017207" duration="7164000" />
-      <workItem from="1686552471794" duration="7997000" />
+      <workItem from="1686552471794" duration="8770000" />
+      <workItem from="1686624800641" duration="5073000" />
     </task>
     <servers />
   </component>

@@ -5,15 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a2ffe88-a6f6-449b-89e0-b583f0332803" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/animalManager/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/animalManager/management/CatManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/animalManager/management/DogManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/animalManager/management/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/animalManager/menu/MainMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/animalManager/model/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/animalManager/model/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/animalManager/model/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/personManager/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/personManager/management/PersonManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/personManager/management/WorkerManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/personManager/menu/MainMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/personManager/model/Engineer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/personManager/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/personManager/model/Staff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/personManager/model/Worker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week2/Inheritance/animalManager/menu/MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week2/Inheritance/animalManager/menu/MainMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week2/Inheritance/animalManager/model/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week2/Inheritance/animalManager/model/Dog.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +52,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-20&quot;,
@@ -61,11 +64,11 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Inheritance.personManager.main.Main">
     <configuration name="Inheritance.abstractInterface.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Inheritance.abstractInterface.Main" />
       <module name="Week2" />
@@ -105,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Inheritance.point.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Inheritance.point.Main" />
+    <configuration name="Inheritance.personManager.main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Inheritance.personManager.main.Main" />
       <module name="Week2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Inheritance.point.*" />
+          <option name="PATTERN" value="Inheritance.personManager.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Inheritance.personManager.main.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Inheritance.geometry.Main" />
         <item itemvalue="Application.Inheritance.circle.Main" />
         <item itemvalue="Application.Inheritance.abstractInterface.Main" />
-        <item itemvalue="Application.Inheritance.point.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +171,11 @@
       <workItem from="1686637930340" duration="4702000" />
       <workItem from="1686647514495" duration="198000" />
       <workItem from="1686671810410" duration="4381000" />
+      <workItem from="1686708516377" duration="380000" />
+      <workItem from="1686708922647" duration="10172000" />
+      <workItem from="1686736719279" duration="1228000" />
+      <workItem from="1686757244868" duration="1760000" />
+      <workItem from="1686792374762" duration="5699000" />
     </task>
     <servers />
   </component>
@@ -187,5 +195,20 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Week2/src/Inheritance/personManager/management/WorkerManager.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

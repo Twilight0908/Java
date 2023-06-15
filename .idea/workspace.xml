@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a2ffe88-a6f6-449b-89e0-b583f0332803" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/personManager/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/personManager/management/PersonManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/personManager/management/WorkerManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/personManager/menu/MainMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/personManager/model/Engineer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/personManager/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/personManager/model/Staff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/src/Inheritance/personManager/model/Worker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Week2/Inheritance/animalManager/menu/MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week2/Inheritance/animalManager/menu/MainMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Week2/Inheritance/animalManager/model/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week2/Inheritance/animalManager/model/Dog.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +165,8 @@
       <workItem from="1686708922647" duration="10172000" />
       <workItem from="1686736719279" duration="1228000" />
       <workItem from="1686757244868" duration="1760000" />
-      <workItem from="1686792374762" duration="5699000" />
+      <workItem from="1686792374762" duration="6004000" />
+      <workItem from="1686799423507" duration="226000" />
     </task>
     <servers />
   </component>
@@ -203,11 +194,6 @@
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Week2/src/Inheritance/personManager/management/WorkerManager.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

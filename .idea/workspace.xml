@@ -5,6 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a2ffe88-a6f6-449b-89e0-b583f0332803" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Week3/src/arrayList/BtArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/src/arrayList/list/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/src/arrayList/list/MyListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/src/bookManagement/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/src/bookManagement/management/BookManage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/src/bookManagement/management/Management.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/src/bookManagement/menu/MainMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/src/bookManagement/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/src/bookManagement/model/Document.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/src/stackQueue/BtStackQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,39 +68,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Inheritance.personManager.main.Main">
-    <configuration name="Inheritance.abstractInterface.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Inheritance.abstractInterface.Main" />
-      <module name="Week2" />
+  <component name="RunManager" selected="Application.bookManagement.main.Main">
+    <configuration name="BtArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrayList.BtArrayList" />
+      <module name="Week3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Inheritance.abstractInterface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Inheritance.circle.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Inheritance.circle.Main" />
-      <module name="Week2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Inheritance.circle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Inheritance.geometry.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Inheritance.geometry.Main" />
-      <module name="Week2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Inheritance.geometry.*" />
+          <option name="PATTERN" value="arrayList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,13 +108,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrayList.list.MyListTest" />
+      <module name="Week3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrayList.list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bookManagement.main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bookManagement.main.Main" />
+      <module name="Week3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bookManagement.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.bookManagement.main.Main" />
+        <item itemvalue="Application.MyListTest" />
+        <item itemvalue="Application.BtArrayList" />
         <item itemvalue="Application.Inheritance.personManager.main.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Inheritance.geometry.Main" />
-        <item itemvalue="Application.Inheritance.circle.Main" />
-        <item itemvalue="Application.Inheritance.abstractInterface.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -167,6 +177,9 @@
       <workItem from="1686757244868" duration="1760000" />
       <workItem from="1686792374762" duration="6004000" />
       <workItem from="1686799423507" duration="226000" />
+      <workItem from="1686816606782" duration="449000" />
+      <workItem from="1686818112826" duration="1609000" />
+      <workItem from="1686880183747" duration="13230000" />
     </task>
     <servers />
   </component>

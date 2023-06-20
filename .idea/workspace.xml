@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a2ffe88-a6f6-449b-89e0-b583f0332803" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Week3/src/stackQueue/queue/LinkedListQueueClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week3/src/stackQueue/queue/MyLinkedListQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week3/src/stackQueue/queue/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week3/src/stackQueue/stack/GenericStackClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week3/src/stackQueue/stack/MyGenericStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week3/src/wordCounter/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week3/src/wordCounter/WordCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/src/map/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/src/map/TestMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/src/map/student/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/src/map/student/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/src/student/AgeComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/src/student/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/src/student/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/src/stackQueue/BtStackQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week3/src/stackQueue/BtStackQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Week3/stackQueue/BtStackQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week3/stackQueue/BtStackQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3/src/binarySearchTree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week3/src/binarySearchTree/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week3/binarySearchTree/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week3/binarySearchTree/BinarySearchTree.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,11 +32,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -80,13 +80,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="BtStackQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stackQueue.BtStackQueue" />
+  <component name="RunManager" selected="Application.student.Main">
+    <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binarySearchTree.BinarySearchTree" />
       <module name="Week3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stackQueue.*" />
+          <option name="PATTERN" value="binarySearchTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericStackClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stackQueue.stack.GenericStackClient" />
+    <configuration name="TestMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="map.TestMap" />
       <module name="Week3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stackQueue.stack.*" />
+          <option name="PATTERN" value="map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListQueueClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stackQueue.queue.LinkedListQueueClient" />
+    <configuration name="map.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="map.Main" />
       <module name="Week3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stackQueue.queue.*" />
+          <option name="PATTERN" value="map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="wordCounter.Main" />
+    <configuration name="map.student.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="map.student.Main" />
       <module name="Week3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="wordCounter.*" />
+          <option name="PATTERN" value="map.student.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bookManagement.main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bookManagement.main.Main" />
+    <configuration name="student.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="student.Main" />
       <module name="Week3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bookManagement.main.*" />
+          <option name="PATTERN" value="student.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.BtStackQueue" />
-        <item itemvalue="Application.LinkedListQueueClient" />
-        <item itemvalue="Application.GenericStackClient" />
-        <item itemvalue="Application.bookManagement.main.Main" />
+        <item itemvalue="Application.student.Main" />
+        <item itemvalue="Application.map.student.Main" />
+        <item itemvalue="Application.TestMap" />
+        <item itemvalue="Application.BinarySearchTree" />
+        <item itemvalue="Application.map.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +193,9 @@
       <workItem from="1686818112826" duration="1609000" />
       <workItem from="1686880183747" duration="13230000" />
       <workItem from="1687140161436" duration="192000" />
-      <workItem from="1687147468990" duration="8548000" />
+      <workItem from="1687147468990" duration="8679000" />
+      <workItem from="1687226415994" duration="49000" />
+      <workItem from="1687226473706" duration="5363000" />
     </task>
     <servers />
   </component>

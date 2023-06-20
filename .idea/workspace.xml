@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a2ffe88-a6f6-449b-89e0-b583f0332803" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Week3/src/map/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week3/src/map/TestMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week3/src/map/student/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week3/src/map/student/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week3/src/student/AgeComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week3/src/student/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week3/src/student/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/src/product/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/src/product/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/src/product/ProductComparatorASC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/src/product/ProductManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/src/binarySearchTree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week3/src/binarySearchTree/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Week3/binarySearchTree/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week3/binarySearchTree/BinarySearchTree.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +75,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.student.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="binarySearchTree.BinarySearchTree" />
       <module name="Week3" />
@@ -94,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="map.TestMap" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="product.Main" />
       <module name="Week3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="map.*" />
+          <option name="PATTERN" value="product.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="map.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="map.Main" />
+    <configuration name="TestMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="map.TestMap" />
       <module name="Week3" />
       <extension name="coverage">
         <pattern>
@@ -148,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.student.Main" />
         <item itemvalue="Application.map.student.Main" />
         <item itemvalue="Application.TestMap" />
         <item itemvalue="Application.BinarySearchTree" />
-        <item itemvalue="Application.map.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +190,7 @@
       <workItem from="1687140161436" duration="192000" />
       <workItem from="1687147468990" duration="8679000" />
       <workItem from="1687226415994" duration="49000" />
-      <workItem from="1687226473706" duration="5363000" />
+      <workItem from="1687226473706" duration="10466000" />
     </task>
     <servers />
   </component>

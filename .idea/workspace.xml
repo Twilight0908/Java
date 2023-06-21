@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a2ffe88-a6f6-449b-89e0-b583f0332803" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Week3/src/product/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week3/src/product/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week3/src/product/ProductComparatorASC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week3/src/product/ProductManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/src/binarySearchTree/BinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3/src/stackQueue/queue/LinkedListQueueClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week3/src/stackQueue/queue/LinkedListQueueClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week3/stackQueue/queue/LinkedListQueueClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week3/stackQueue/queue/LinkedListQueueClient.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,13 +74,39 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="binarySearchTree.BinarySearchTree" />
+  <component name="RunManager" selected="Application.BinarySearch">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binarySearchTree.BinarySearch" />
       <module name="Week3" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="binarySearchTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BtStackQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stackQueue.BtStackQueue" />
+      <module name="Week3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stackQueue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListQueueClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stackQueue.queue.LinkedListQueueClient" />
+      <module name="Week3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stackQueue.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,32 +120,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="product.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="map.TestMap" />
-      <module name="Week3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="map.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="map.student.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="map.student.Main" />
-      <module name="Week3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="map.student.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.LinkedListQueueClient" />
+        <item itemvalue="Application.BtStackQueue" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.student.Main" />
-        <item itemvalue="Application.map.student.Main" />
-        <item itemvalue="Application.TestMap" />
-        <item itemvalue="Application.BinarySearchTree" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +189,9 @@
       <workItem from="1687140161436" duration="192000" />
       <workItem from="1687147468990" duration="8679000" />
       <workItem from="1687226415994" duration="49000" />
-      <workItem from="1687226473706" duration="10466000" />
+      <workItem from="1687226473706" duration="10864000" />
+      <workItem from="1687275034615" duration="2174000" />
+      <workItem from="1687329542674" duration="1457000" />
     </task>
     <servers />
   </component>

@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a2ffe88-a6f6-449b-89e0-b583f0332803" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Week3/src/sort/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week3/src/sort/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week3/src/sort/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/src/street/Family.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/src/street/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/src/street/Management.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/src/street/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/src/street/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3/src/street/Street.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +77,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.InsertionSort">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="binarySearchTree.BinarySearch" />
       <module name="Week3" />
@@ -114,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListQueueClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stackQueue.queue.LinkedListQueueClient" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="street.Main" />
       <module name="Week3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stackQueue.queue.*" />
+          <option name="PATTERN" value="street.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.LinkedListQueueClient" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +197,9 @@
       <workItem from="1687329542674" duration="1683000" />
       <workItem from="1687335002832" duration="171000" />
       <workItem from="1687358138102" duration="29000" />
-      <workItem from="1687400341376" duration="2943000" />
+      <workItem from="1687400341376" duration="3624000" />
+      <workItem from="1687427065422" duration="2333000" />
+      <workItem from="1687487164238" duration="5139000" />
     </task>
     <servers />
   </component>

@@ -7,28 +7,15 @@ import java.util.List;
 public class IOStudent {
     private final File file = new File("Week4/text/student.csv");
 
-    public void writeFile(Student student) throws IOException {
-        FileReader fileReader = new FileReader(file);
-        BufferedReader bufferedReader = new BufferedReader(fileReader);
-
-        String line = null;
+    public void writeFile(List<Student> studentList) throws IOException {
         String data = "";
-        while ((line = bufferedReader.readLine()) != null) {
-            data += line + "\n";
+        for (Student student : studentList) {
+            data += student.getId() + "," + student.getName() + "," + student.getAge() + "," + student.getAddress() + "\n";
         }
-        bufferedReader.close();
 
-        data += student.getId() + "," + student.getName() + "," + student.getAge() + "," + student.getAddress();
         FileWriter fileWriter = new FileWriter(file);
         BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
         bufferedWriter.write(data);
-        bufferedWriter.close();
-    }
-
-    public void editFile() throws IOException {
-        FileWriter fileWriter = new FileWriter(file);
-        BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
-        bufferedWriter.write("");
         bufferedWriter.close();
     }
 

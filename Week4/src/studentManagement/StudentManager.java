@@ -25,7 +25,7 @@ public class StudentManager implements Management<Student> {
     public void add(Student student) {
         try {
             this.studentList.add(student);
-            this.ioStudent.writeFile(student);
+            this.ioStudent.writeFile(this.studentList);
             this.numberStudent++;
             System.out.println("Them Thanh Cong !\n");
         } catch (IOException e) {
@@ -38,19 +38,13 @@ public class StudentManager implements Management<Student> {
         int index = findIndexById(id);
         if (index != -1) {
             this.studentList.set(index, student);
+
+            try {
+                this.ioStudent.writeFile(this.studentList);
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
             System.out.println("Sua Thanh Cong !\n");
-            try {
-                this.ioStudent.editFile();
-            } catch (IOException e) {
-                throw new RuntimeException(e);
-            }
-            try {
-                for (Student student1 : studentList) {
-                    this.ioStudent.writeFile(student1);
-                }
-            } catch (IOException e) {
-                throw new RuntimeException(e);
-            }
         } else {
             System.out.println("Khong Co Id Muon Sua\n");
         }
@@ -62,15 +56,9 @@ public class StudentManager implements Management<Student> {
         if (index != -1) {
             this.studentList.remove(index);
             this.numberStudent--;
+
             try {
-                this.ioStudent.editFile();
-            } catch (IOException e) {
-                throw new RuntimeException(e);
-            }
-            try {
-                for (Student student : studentList) {
-                    this.ioStudent.writeFile(student);
-                }
+                this.ioStudent.writeFile(this.studentList);
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }

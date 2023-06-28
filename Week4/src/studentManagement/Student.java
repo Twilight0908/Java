@@ -48,8 +48,8 @@ public class Student {
     @Override
     public String toString() {
         return "id: " + id +
-                " Ten: " + name +
-                " Tuoi: " + age +
-                " Dia Chi: " + address;
+                "\nTen: " + name +
+                "\nTuoi: " + age +
+                "\nDia Chi: " + address;
     }
 }

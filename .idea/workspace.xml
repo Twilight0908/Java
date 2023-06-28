@@ -6,8 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="1a2ffe88-a6f6-449b-89e0-b583f0332803" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4/src/studentManagement/IOStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week4/src/studentManagement/IOStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week4/src/iOBinaryFile/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week4/src/iOBinaryFile/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week4/src/studentManagement/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week4/src/studentManagement/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week4/src/studentManagement/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week4/src/studentManagement/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week4/src/studentManagement/StudentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week4/src/studentManagement/StudentManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week4/iOBinaryFile/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week4/iOBinaryFile/Demo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoPrintWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iOTextFile.DemoPrintWriter" />
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="iOBinaryFile.Demo" />
       <module name="Week4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iOTextFile.*" />
+          <option name="PATTERN" value="iOBinaryFile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,10 +150,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.CopyFile" />
         <item itemvalue="Application.FindMaxInFile" />
         <item itemvalue="Application.ReadFileExample" />
-        <item itemvalue="Application.DemoPrintWriter" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +206,9 @@
       <workItem from="1687487164238" duration="5322000" />
       <workItem from="1687762110960" duration="10417000" />
       <workItem from="1687829495909" duration="11767000" />
-      <workItem from="1687859729130" duration="521000" />
+      <workItem from="1687859729130" duration="1096000" />
+      <workItem from="1687918025813" duration="1135000" />
+      <workItem from="1687935193276" duration="3603000" />
     </task>
     <servers />
   </component>

@@ -5,8 +5,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class StudentManager implements Management<Student> {
-    private List<Student> studentList = new ArrayList<>();
-    private IOStudent ioStudent = new IOStudent();
+    private List<Student> studentList = null;
+    private final IOStudent ioStudent = new IOStudent();
     private int numberStudent = 0;
 
     public StudentManager() {
@@ -85,5 +85,15 @@ public class StudentManager implements Management<Student> {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    public List<Student> findByName(String name) {
+        List<Student> list = new ArrayList<>();
+        for (Student student : studentList) {
+            if (student.getName().toLowerCase().contains(name.toLowerCase())) {
+                list.add(student);
+            }
+        }
+        return list;
     }
 }

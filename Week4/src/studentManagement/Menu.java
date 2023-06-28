@@ -64,8 +64,15 @@ public class Menu {
 
     public void addMenu() {
         System.out.println("+++++ Them Hoc Sinh +++++\n");
-        System.out.print("Nhap Id: ");
-        String id = INPUT.nextLine();
+        String id;
+        while (true) {
+            System.out.print("Nhap Id: ");
+            id = INPUT.nextLine();
+            if (studentManager.findIndexById(id) == -1) {
+                break;
+            }
+            System.out.println("Id Da Co !!!");
+        }
 
         System.out.print("Nhap Ten: ");
         String name = INPUT.nextLine();
@@ -148,7 +155,7 @@ public class Menu {
         String name = INPUT.nextLine();
         System.out.println("----------\n");
         List<Student> list = studentManager.findByName(name);
-        if (list != null) {
+        if (list.size() != 0) {
             for (Student student : list) {
                 System.out.println(student.toString());
                 System.out.println("**********\n");

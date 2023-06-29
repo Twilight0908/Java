@@ -6,7 +6,7 @@ import java.io.InputStream;
 public class Demo {
     public static void main(String[] args) {
         Demo demo = new Demo();
-        demo.readByteConsole();
+        demo.inputStreamExample();
     }
 
     public void readByteConsole() {
@@ -31,6 +31,12 @@ public class Demo {
     public void inputStreamExample() {
         try {
             InputStream inputStream = new FileInputStream("Week4/text/test.txt");
+
+            int i=-1;
+            while ((i=inputStream.read())!=-1){
+                System.out.println((char) i);
+            }
+            inputStream.close();
         } catch (Exception e) {
             throw new RuntimeException(e);
         }

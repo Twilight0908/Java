@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a2ffe88-a6f6-449b-89e0-b583f0332803" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Products/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Products/Products.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Products/data/products.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Products/src/IOFile/IOProducts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Products/src/check/Check.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Products/src/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Products/src/management/ProductManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Products/src/management/iManagement/Management.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Products/src/management/sort/SortASC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Products/src/management/sort/SortDEC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Products/src/menu/MainMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Products/src/menu/ProductMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Products/src/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1a2ffe88-a6f6-449b-89e0-b583f0332803" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -216,7 +200,7 @@
       <workItem from="1688520528252" duration="1298000" />
       <workItem from="1689000448105" duration="573000" />
       <workItem from="1689001038173" duration="13375000" />
-      <workItem from="1689041802168" duration="4545000" />
+      <workItem from="1689041802168" duration="5004000" />
     </task>
     <servers />
   </component>

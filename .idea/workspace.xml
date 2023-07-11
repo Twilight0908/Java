@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a2ffe88-a6f6-449b-89e0-b583f0332803" name="Changes" comment="" />
+    <list default="true" id="1a2ffe88-a6f6-449b-89e0-b583f0332803" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Products/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Products/Products.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Products/data/products.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Products/src/IOFile/IOProducts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Products/src/check/Check.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Products/src/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Products/src/management/ProductManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Products/src/management/iManagement/Management.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Products/src/management/sort/SortASC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Products/src/management/sort/SortDEC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Products/src/menu/MainMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Products/src/menu/ProductMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Products/src/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,20 +91,7 @@
       <recent name="D:\GitData\Java\Week4\text" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
-    <configuration name="Bank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threading.Bank" />
-      <module name="Week4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="threading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.main.Main">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="iOBinaryFile.Demo" />
       <module name="Week4" />
@@ -116,12 +119,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="threading.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threading.Demo" />
-      <module name="Week4" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Products" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="Products" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="threading.*" />
+          <option name="PATTERN" value="main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.main.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Bank" />
-        <item itemvalue="Application.threading.Demo" />
-        <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -204,6 +214,9 @@
       <workItem from="1688373470635" duration="6297000" />
       <workItem from="1688434505985" duration="2981000" />
       <workItem from="1688520528252" duration="1298000" />
+      <workItem from="1689000448105" duration="573000" />
+      <workItem from="1689001038173" duration="13375000" />
+      <workItem from="1689041802168" duration="4545000" />
     </task>
     <servers />
   </component>
